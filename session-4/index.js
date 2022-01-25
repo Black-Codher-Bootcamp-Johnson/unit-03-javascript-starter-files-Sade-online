@@ -1,8 +1,56 @@
-// ****************************************************TASK 1 - OBJECTS****************************************************
+// ****************************************************TASK 1 - practice creating OBJECTS****************************************************
+// objects typically start with curly braces and end with a semi colon.
+const personA = { 
+    name: 'Sade',
+    age: 22,
+    location: 'Manchester',
+    likes: 'sleeping a bit too much where possible',
+};
+
+// to call in console: console.log(personA);
+
+const personB = {
+    name: 'Georgette',
+    age: 22,
+    location: 'somewhere down South',
+    likes: 'watching movies',
+};
+
+const personC = {
+    name: 'Daniel',
+    age: 22,
+    location: 'somewhere up North',
+    likes: 'going hard at the gym',
+};
+
+const personD = {
+    name: 'Emmanuel',
+    age: 20,
+    location: 'Newcastle',
+    likes: 'Archery',
+};
+ 
+// a function called biography with one parameter called person that pulls in one of the OBJECTS above.
+
+function biography(person) {
+    
+    console.log('Hi! my name is ' + person.name + ' and I am ' + person.age + ' years old. I live in '+ person.location + ' and I like ' +  person.likes )
+}
+biography(personA);
+biography(personB);
+biography(personC);
+biography(personD);
 
 
 
+// function bio (person) {
+//     bio (person);
+//     console.log ("Hi, my name is " + person.name + ". I am" + person.age + " years old," + "I live " + person.location + "and I like" + person.likes);
 
+//     return bio(personA);
+// }
+// this created a Maximum call stack size exceeded error :(
+// to call in console: console.log(biography(personA));
 
 
 
@@ -53,18 +101,3 @@
 
 
 // ****************************************************TASK 3****************************************************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
