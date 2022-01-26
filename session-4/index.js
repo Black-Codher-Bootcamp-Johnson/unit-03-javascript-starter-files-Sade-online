@@ -58,13 +58,6 @@ biography(personD);
 
 
 
-
-
-
-
-
-
-
 //****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
@@ -102,3 +95,43 @@ console.log("Division: x / y " + division);
 
 
 // ****************************************************TASK 3****************************************************
+
+// const minimumDrivingAge = 17;
+// let YourAge = 12;
+
+// if (YourAge > minimumDrivingAge) {
+//     console.log("you're legal!");
+// }
+
+// if (YourAge < minimumDrivingAge) {
+//     console.log("you're illegal!");
+// }
+
+// into function 
+function driving (age) {
+
+    let myAge = 0;
+    const minimumDrivingAge = 17;
+    
+    if (age > minimumDrivingAge) {
+    
+    result = "you're legal!";
+    
+    }
+    
+    else if (age < minimumDrivingAge) {
+    
+    result = "you're illegal!";
+    
+    }
+
+    else {
+
+        console.log ("you're an alien");
+        
+        }
+
+    console.log (result);
+
+    }
+    // to call in console = driving(90)
