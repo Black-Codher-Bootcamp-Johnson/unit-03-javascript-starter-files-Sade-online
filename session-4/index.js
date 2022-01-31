@@ -2,7 +2,7 @@
 // objects typically start with curly braces and end with a semi colon.
 const personA = { 
     name: 'Sade',
-    age: 22,
+    age: 24,
     location: 'Manchester',
     likes: 'sleeping a bit too much where possible',
 };
@@ -11,7 +11,7 @@ const personA = {
 
 const personB = {
     name: 'Georgette',
-    age: 22,
+    age: 25,
     location: 'somewhere down South',
     likes: 'watching movies',
 };
@@ -135,3 +135,26 @@ function driving (age) {
 
     }
     // to call in console = driving(90)
+
+
+
+// HOMEWORK
+// Both tasks on this slide can be completed in the session4/ index.js file
+// ● Create a calculator function that adds, subtracts, multiplies and divides two numbers
+// ○ How many parameters should you pass to the function?
+// ○ Do you declare variables as const or let?
+
+// ● Create a whoIsOlder function to compare the ages of two people to find out is older by how many years
+// ○ The objects you created during task 1 will be passed as parameters
+// ○ Determine who is older
+// ○ Find the age difference
+// ○ Return a sentence informing us of your results, e.g. “John is 5 years older than Peter”
+
+// Practice creating pull requests, reviewing other people’s code and handling
+// code conflicts
+// ● A practice group project has been created for you in GitHub classroom (link
+// is in Black Codher learning in the materials tab for this session)
+// ○ Make sure your join the correct team
+// ○ Your team is your study group
+// ● Full instructions are in the README of the practice group project
+// repository
