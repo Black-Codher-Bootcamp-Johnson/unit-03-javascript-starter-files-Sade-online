@@ -81,19 +81,6 @@ const division = x / y;
 console.log("Division: x / y " + division);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ****************************************************TASK 3****************************************************
 
 // const minimumDrivingAge = 17;
@@ -143,6 +130,30 @@ function driving (age) {
 // ● Create a calculator function that adds, subtracts, multiplies and divides two numbers
 // ○ How many parameters should you pass to the function?
 // ○ Do you declare variables as const or let?
+
+function calculator() {
+
+
+}
+
+let value1 = parseInt(prompt("Whats your first number?"));
+let value2 = parseInt(prompt("Whats your first number?"));
+
+console.log(value1);
+console.log(value2);
+
+const add = value1 + value2;
+console.log(value1 + " + " + value2 + " is " + add);
+
+const times = value1 * value2;
+console.log(value1 + " x " + value2 + " is " + times);
+
+const minus = value1 - value2;
+console.log(value1 + " - " + value2 + " is " + minus);
+
+const divide = value1 / value2;
+console.log(value1 + " / " + value2 + " is " + divide);
+
 
 // ● Create a whoIsOlder function to compare the ages of two people to find out is older by how many years
 // ○ The objects you created during task 1 will be passed as parameters
