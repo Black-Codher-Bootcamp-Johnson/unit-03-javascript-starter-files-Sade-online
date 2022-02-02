@@ -1,7 +1,11 @@
 // ****************************************************TASK 1****************************************************
+// create the animals array and use the pop method.... to superficially remove the last item in the array
 
+const animals = ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra'];
 
+animals.pop();
 
+console.log(animals);
 
 
 
