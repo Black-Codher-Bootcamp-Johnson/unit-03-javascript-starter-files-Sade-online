@@ -40,6 +40,9 @@ console.log(numbers.length);
 // ****************************************************TASK 3****************************************************
 
 // Notice the backticks enclosing t'challa. Read https://www.javascripttutorial.net/es6/javascript-template-literals/ for an explanation on template literals
+
+// Your task is to return an array that only has the name of each person and this array should be sorted by their age (youngest to oldest.
+
 const people = [
   { name: `t'challa`, age: 37 },
   { name: 'shuri', age: 16 },
@@ -55,3 +58,6 @@ function compare(a, b) {
 
   return personA > personB ? true : false;
 }
+
+const sortedPeople = people.sort((a, b)=> a.age - b.age).map(person => person.name);
+console.log('sorted people: ', sortedPeople);
