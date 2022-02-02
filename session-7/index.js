@@ -1,18 +1,11 @@
 // ****************************************************TASK 1****************************************************
 // create the animals array and use the pop method.... to superficially remove the last item in the array
 
-const animals = ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra'];
+// const animals = ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra'];
 
-animals.pop();
+// animals.pop();
 
-console.log(animals);
-
-
-
-
-
-
-
+// console.log(animals);
 
 
 
@@ -20,10 +13,21 @@ console.log(animals);
 
 // ****************************************************TASK 2****************************************************
 
+const animals = ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra'];
+
+animals.sort().reverse();
+
+console.log(animals);
 
 
 
+const namesOfPeople = ['Richard of York', 'Judas', 'Silas', 'Matthew', 'Nebuchadnezzar', 'Daniel', 'Zachariah', 'Pharaoh', 'Moses', 'Mary']
 
+namesOfPeople.sort();
+console.log(namesOfPeople);
+
+namesOfPeople.reverse();
+console.log(namesOfPeople);
 
 
 
