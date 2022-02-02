@@ -3,17 +3,17 @@ const randomNumber = Math.round(Math.random() * 10);
 
 // ****************************************************TASK 1****************************************************
 
-// let count = 0; // let browser know that count is 0.
-// while (count < 10) {
+let count = 0; // let browser know that count is 0.
+while (count < 10) {
 
-//     const randomNumber = Math.round(Math.random() * 10);
+    const randomNumber = Math.round(Math.random() * 10);
 
-//     count++; // (or count = count + 1)
-//     console.log("This is the random number " + randomNumber)
+    count++; // (or count = count + 1)
+    console.log("This is the random number " + randomNumber)
 
-//     console.log(count); // for testing
+    console.log(count); // for testing
 
-// }
+}
 
 
 
