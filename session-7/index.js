@@ -14,9 +14,7 @@
 // ****************************************************TASK 2****************************************************
 
 const animals = ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra'];
-
 animals.sort().reverse();
-
 console.log(animals);
 
 
@@ -30,6 +28,11 @@ namesOfPeople.reverse();
 console.log(namesOfPeople);
 
 
+// bonus task
+const numbers = [5, 325, 67, 100000, 150];
+numbers.sort(function(a, b){return a - b});
+console.log(numbers);
+console.log(numbers.length);
 
 
 
